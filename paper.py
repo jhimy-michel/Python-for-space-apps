@@ -8,13 +8,14 @@ os.system('cls' if os.name=='nt' else 'clear')
 
 while (1 < 2):
     print ("\n")
-    print ("Rock, Paper, Scissors - Shoot!")
+    print ("Rock, Paper, Scissors - Shoot! ")
     userChoice = input("Choose your weapon [R]ock], [P]aper, or [S]cissors: ")
+    # validate if the input character is valid
     if not re.match("[SsRrPp]", userChoice):
         print ("Please choose a letter:")
         print ("[R]ock, [S]cissors or [P]aper.")
         continue
-    # Echo the user's choice
+    # Print the user's choice
     print ("You chose: " + userChoice)
     choices = ['R', 'P', 'S']
     opponentChoice = random.choice(choices)
