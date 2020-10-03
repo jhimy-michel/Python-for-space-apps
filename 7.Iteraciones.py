@@ -19,3 +19,7 @@ frutas = ["mango","naranjas","sandia"]
 
 for fruta in frutas:
     print (fruta)
+
+# 
+for x in range(6):
+  print(x)
