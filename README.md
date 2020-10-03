@@ -32,7 +32,7 @@ Ejemplo:
     Output: la letra ingresada es minuscula
 
 3. Mostrar todos los numeros pares entre el 1 al 100
-4. Mostrar todos los numeros pares entre el 1 al 100
+4. Mostrar todos los numeros impares entre el 1 al 100
 5. Realiza una función llamada areaRectangulo(base, altura) que devuelva el área del rectangulo
 Ejemplo: 
     Input: areaRectangulo(2,4)
