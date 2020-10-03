@@ -1,14 +1,17 @@
 """ Rock Paper Scissors
 ----------------------------------------
 """
+
+# import libraries
 import random
 import os
 import re
+
 os.system('cls' if os.name=='nt' else 'clear')
 
 while (1 < 2):
     print ("\n")
-    print ("Rock, Paper, Scissors - Shoot! ")
+    print ("Rock 🗿, Paper 🧻, Scissors 🔪 - Shoot! ")
     userChoice = input("Choose your weapon [R]ock], [P]aper, or [S]cissors: ")
     # validate if the input character is valid
     if not re.match("[SsRrPp]", userChoice):
@@ -18,11 +21,11 @@ while (1 < 2):
     # Print the user's choice
     print ("You chose: " + userChoice)
     choices = ['R', 'P', 'S']
+    # generates a random value
     opponentChoice = random.choice(choices)
     print ("I chose: " + opponentChoice)
     if opponentChoice == str.upper(userChoice):
         print ("Tie! 🤝  ")
-    #if opponentChoice == str("R") and str.upper(userChoice) == "P"
     elif opponentChoice == 'R' and userChoice.upper() == 'S':      
         print ("Scissors beats rock, I win! 🤗 ")
         continue
