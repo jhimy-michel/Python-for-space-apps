@@ -20,6 +20,16 @@ frutas = ["mango","naranjas","sandia"]
 for fruta in frutas:
     print (fruta)
 
-# 
+# range function
 for x in range(6):
   print(x)
+
+
+# ejemplo #2:  range function
+# a = 3 / acum = 1 + 2 + 3
+print ("Another example:")
+a = 3
+acum = 0
+for x in range(a):
+  a = x + a
+print(a)

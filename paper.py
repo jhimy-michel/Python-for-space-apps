@@ -7,6 +7,7 @@ import random
 import os
 import re
 
+# validate to clean up the console
 os.system('cls' if os.name=='nt' else 'clear')
 
 while (1 < 2):
@@ -24,6 +25,7 @@ while (1 < 2):
     # generates a random value
     opponentChoice = random.choice(choices)
     print ("I chose: " + opponentChoice)
+    # validating possible scenarios
     if opponentChoice == str.upper(userChoice):
         print ("Tie! 🤝  ")
     elif opponentChoice == 'R' and userChoice.upper() == 'S':      
