@@ -14,7 +14,7 @@ Recuerda utilizar el nombre del archivo que quieres ejectuar
 
 > Nota: Todos los archivos python terminan en **.py**
 
-## Reto de programación
+## Reto de programación 💻🤓
 
 1. Escribir un programa que le permita al usuario ingresar un monto en bolivianos, el programa debe
 convertir el monto a dolares y euros
